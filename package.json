@@ -1,0 +1,34 @@
+{
+  "name": "orm-tasting",
+  "version": "1.0.0",
+  "description": "A journey through Node.js ORMs",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "scripts": {
+    "test": "echo ok",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukaportes/node-orm-tasting.git"
+  },
+  "keywords": [
+    "ORM",
+    "node",
+    "js",
+    "api"
+  ],
+  "author": "Murilo Portescheller <@mukaportes>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukaportes/node-orm-tasting/issues"
+  },
+  "homepage": "https://github.com/mukaportes/node-orm-tasting#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
