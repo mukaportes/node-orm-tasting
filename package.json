@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo ok",
-    "start": "node index.js"
+    "sequelize": "set ORM=sequelize && node src/index.js",
+    "type-orm": "set ORM=typeOrm && node src/index.js"
   },
   "repository": {
     "type": "git",
