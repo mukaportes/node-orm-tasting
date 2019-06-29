@@ -1,5 +1,5 @@
 const Waterline = require('waterline')
-const loadCollections = require('../models/waterline');
+const loadCollections = require('../../models/waterline');
 
 const waterline = new Waterline();
 loadCollections(waterline);
